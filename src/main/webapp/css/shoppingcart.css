@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+	background:#f7f6f6;
+	padding: 0 20px;
+	font-size: 14px;
+    line-height: 20px;
+}
+.row {
+  display: flex;
+}
+
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+  margin-left:35px;
+}
+
+.column{
+	background: white;
+}
+
+.price-row, .item-row{
+	border-bottom: 1px solid #E5E5E5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.price-text{
+	color: #565959;
+}
+
+.cart-title{
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.item-title{
+	font-size: 18px;
+	font-weight: 400;
+	
+}
+
+.quantity{
+	margin-top: 10px;
+}
